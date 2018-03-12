@@ -1,4 +1,4 @@
-# Type-de-Roche-Classification
+# Type de Roche Classification
 
 This project takes the term "mining" literally to classify the Type of Rock using various Data Mining techniques.
 
