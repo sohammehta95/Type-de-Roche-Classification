@@ -37,6 +37,48 @@ The data given initially had a lot of missing values, duplicate values and value
 
 ## Data Processing
 
+Here, we use our prepared data and process it using data discretization. The dataset after cleaning is divided into two data sets namely PD1 and PD2. The discretization is performed using the method of binning with equal width and equal frequency respectively. Also the cleaned project data is normalized to get the dataset PD. 
+
+1) Discretization by Equal Width Binning (PD1)  	
+2) Discretization by Equal Frequency Binning (PD2)  
+3) Normalization (PD)  
+
+## Experiments
+
+### Experiment 1 (Non-Contrast Learning)
+
+All the records were used to perform the full classification (learning), i.e. built a classifier for all classes C1- C6 simultaneously. This experiment was repeated for the 3 datasets PD1, PD2 and PD. 
+
+
+
+### Experiment 2 (Contrast Learning)
+
+All the records were used to perform the contrast classification i.e. contrasting class C1(R. carbonatees and R. carbonatees impures) with a class not C1 that contains other classes.  This experiment was repeated for the 3 datasets PD1, PD2 and PD.
+
+
+### Experiment 3
+
+Experiments 1, 2 (both contrast and non-contrast learning) were repeated for all records with the most important attributes as defined by the expert (S, Zn, Pb, Cu, CaO+MgO, CaO, MgO, Fe2O3). This experiment was also repeated for the 3 datasets PD1, PD2 and PD.
+
+
+## EVALUATING THE MODELS
+
+A number of machine learning techniques were applied to the given dataset after cleaning. Each of these methods were also applied on different versions of the same dataset:  
+PD data represents the original normalized data.  
+PD1 dataset represents Equal Width Binning Discretized data.  
+PD2 represents the Equal Frequency Binning Discretized data.  
+All the models that are implemented are evaluated on the basis of the accuracy as given in the table below.   
+
+
+![Model Table](exptable.png)
+
+## Summary 
+
+The aim of the project was to classify the given data on the basis of TYPE DE ROCHE (Rock Type). We used WEKA (Internet based Classification Tool) to build two types of classifiers: Descriptive and Non-Descriptive. For the descriptive classifier, we used Decision tree to generate sets of discriminant rules describing the content of the data. We used Neural Networks to build the Non-Descriptive Classifier.  
+
+The Data Preparation step included attributes selection, cleaning the data, filling the missing values, error correction etc. to build the Project Data. The Data Preprocessing step included 2 methods of Data Discretization Namely Equal Width Binning and Equal Frequency Binning to obtain the 2 datasets PD1 and PD2 respectively. Also, the project dataset was normalized to obtain the dataset PD. For each of these datasets 3 experiments were carried out in WEKA. The predictive accuracy was computed for the different classifiers built
+
+
 
 
 
