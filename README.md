@@ -33,7 +33,7 @@ The data given initially had a lot of missing values, duplicate values and value
 3) Solving Class Label Discrepancies
 4) Dropping Irrelevant Attributes
 5) Dropping Duplicate and Irrelevant Attributes
-6) Filling Missing Values
+6) Filling Missing Values  
 
 ## Data Processing
 
@@ -41,7 +41,7 @@ Here, we use our prepared data and process it using data discretization. The dat
 
 1) Discretization by Equal Width Binning (PD1)  	
 2) Discretization by Equal Frequency Binning (PD2)  
-3) Normalization (PD)  
+3) Normalization (PD)    
 
 ## Experiments
 
@@ -58,10 +58,10 @@ All the records were used to perform the contrast classification i.e. contrastin
 
 ### Experiment 3
 
-Experiments 1, 2 (both contrast and non-contrast learning) were repeated for all records with the most important attributes as defined by the expert (S, Zn, Pb, Cu, CaO+MgO, CaO, MgO, Fe2O3). This experiment was also repeated for the 3 datasets PD1, PD2 and PD.
+Experiments 1, 2 (both contrast and non-contrast learning) were repeated for all records with the most important attributes as defined by the expert (S, Zn, Pb, Cu, CaO+MgO, CaO, MgO, Fe2O3). This experiment was also repeated for the 3 datasets PD1, PD2 and PD.  
 
 
-## EVALUATING THE MODELS
+## Evaluating the Models  
 
 A number of machine learning techniques were applied to the given dataset after cleaning. Each of these methods were also applied on different versions of the same dataset:  
 PD data represents the original normalized data.  
@@ -70,7 +70,7 @@ PD2 represents the Equal Frequency Binning Discretized data.
 All the models that are implemented are evaluated on the basis of the accuracy as given in the table below.   
 
 
-![Model Table](exptable.png)
+![Model Table](exptable.png)  
 
 ## Summary 
 
