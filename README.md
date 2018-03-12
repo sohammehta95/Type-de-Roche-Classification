@@ -4,10 +4,10 @@ This project takes the term "mining" literally to classify the Type of Rock usin
 
 We have used the data mining tool WEKA to apply various Machine learning techniques such as Decision Tree and Neural Networks to train our model. The results of each technique and shown in the report. The project was conducted in the following stages 
 
-Checkout the Project Webpage: www.typederoche.com
-Alternate Page :  https://sohammehta95.github.io/Type-de-Roche-Classification/
+Checkout the Project Webpage: www.typederoche.com  
+Alternate Page :  https://sohammehta95.github.io/Type-de-Roche-Classification/  
 
-
+  
 ## Identifying Data
 
 The data provided to us is a real-life classification data with TYPE DE ROCHE (Rock Type) as a CLASS attribute. There are total 98 records with 48 attributes and 6 classes.
