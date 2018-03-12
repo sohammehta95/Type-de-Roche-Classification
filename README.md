@@ -28,7 +28,7 @@ The data provided has such high variance that 78% of the rocks belong only a sin
 
 ![PieChart](pie.png)
 
-## Data Peparation
+## Data Preparation
 
 The data given initially had a lot of missing values, duplicate values and values with incorrect formatting. All these inaccuracies are removed while preparing the data.
 
